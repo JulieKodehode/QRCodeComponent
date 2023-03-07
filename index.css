@@ -36,8 +36,8 @@ body {
 }
 
 main {
-	width: 300px;
-	max-width: 450px;
+	max-width: 300px;
+	height: 500px;
 
 	display: flex;
 	flex-direction: column;
@@ -46,14 +46,14 @@ main {
 
 	text-align: center;
 	background-color: var(--color-white);
-	border-radius: 20px;
-	padding: 1em;
+	border-radius: 10px;
+	padding-inline: 1em;
 }
 
 img {
 	height: 300px;
 	max-width: 100%;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 /* Typography */
@@ -73,7 +73,7 @@ main p {
 }
 
 /* Credits footer */
-#credits {
+.credits {
 	position: absolute;
 	bottom: 0;
 
@@ -86,4 +86,5 @@ main p {
 
 	background-color: #fdfdfd;
 	color: #1f1f1f;
+	font-size: var(--fontSize-paragraph);
 }
