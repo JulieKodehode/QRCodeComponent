@@ -34,29 +34,31 @@ body {
 	font-family: var(--font-family);
 }
 
-div {
+main {
 	display: flex;
 	width: 300px;
+	height: 450px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
 	text-align: center;
 	background-color: var(--color-white);
-	border-radius: 30px;
+	border-radius: 20px;
 	padding: 1em;
 }
 
 img {
 	height: 300px;
 	width: 300px;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 /* Typography */
-h2 {
+h1 {
 	color: var(--color-darkBlue);
 	font-weight: var(--fontWeight-heavy);
+	font-size: 24px; /*H2 size*/
 }
 
 p {
